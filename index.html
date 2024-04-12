@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Play Tic, Tac, Toe</h1>
+      <p>Built with CSS, Javascript and - of course - lots of love!</p>
+    </header>
+    <main>
+      <!-- Player squares -->
+      <div id="playerBoxes">
+        <div id="player1" class="players">
+            <p>Player 1</p>
+           <p>Name 1</p>
+           <p>X</p>
+           <a href="">Edit</a>
+        </div>
+        <div id="player2" class="players">
+            <p>Player 2</p>
+            <p>Name 2</p>
+            <p>O</p>
+            <a href="">Edit</a>
+        </div>
+      </div>
+      <div id="startButton"><button>Start new Game</button></div>
+      <div id="gameBoard">
+        <p>Its your turn Player 1</p>
+        <div id="board">
+            <div id="row1">
+                <div id="r1b1" class="boardBox"><p>X</p></div>
+                <div id="r1b2" class="boardBox"><p></p></div>
+                <div id="r1b3" class="boardBox"><p></p></div>
+            </div>
+            <div id="row2">
+                <div id="r2b1" class="boardBox"><p>O</p></div>
+                <div id="r2b2" class="boardBox"><p></p></div>
+                <div id="r2b3" class="boardBox"><p></p></div>
+            </div>
+            <div id="row3">
+                <div id="r3b1" class="boardBox"><p></p></div>
+                <div id="r3b2" class="boardBox"><p>O</p></div>
+                <div id="r3b3" class="boardBox"><p></p></div>
+            </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

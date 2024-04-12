@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}
+header {
+  background-color: cornflowerblue;
+  text-align: center;
+  padding: 30px;
+}
+#playerBoxes {
+  display: flex;
+  justify-content: center;
+}
+
+.players {
+  background-color: dodgerblue;
+
+  width: 200px;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+#startButton {
+  text-align: center;
+}
+
+#gameBoard {
+    text-align: center;
+    margin: 50px;
+}
+
+.boardBox {
+  background-color: dodgerblue;
+  width: 100px;
+  height: 100px;
+  margin: 3px;
+  text-align: center;
+}
+#row1 {
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+
+}
+
+#row2 {
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+
+}
+
+#row3 {
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+
+}
