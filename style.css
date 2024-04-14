@@ -20,18 +20,56 @@ header {
   background-color: dodgerblue;
 
   width: 200px;
-  padding: 50px;
+  padding: 20px;
   margin: 20px;
   text-align: center;
 }
 
+.players 	p:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.players 	p:nth-child(2) {
+  font-weight: bold;
+  font-size: 30px;
+  color: orange;
+}
+
+.players 	p:nth-child(3) {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.players a {
+  font-weight: bold;
+  font-size: 20px;
+}
+
 #startButton {
-  text-align: center;
+  display: block;
+  background-color: aqua;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+#winner {
+  display: none;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: aquamarine;
+  width: 250px;
+
 }
 
 #gameBoard {
-    text-align: center;
-    margin: 50px;
+  text-align: center;
+  margin: 50px;
+  display: none;
+}
+
+#gameBoard p {
+  font-size: 25px;
 }
 
 .boardBox {
@@ -40,24 +78,28 @@ header {
   height: 100px;
   margin: 3px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  font-weight: bold;
+
 }
 #row1 {
   display: flex;
   justify-content: center;
   padding: 3px;
-
 }
 
 #row2 {
   display: flex;
   justify-content: center;
   padding: 3px;
-
 }
 
 #row3 {
   display: flex;
   justify-content: center;
   padding: 3px;
-
 }
+
